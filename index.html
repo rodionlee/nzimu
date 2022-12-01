@@ -2,22 +2,234 @@
 <html>
 <head>
   <meta charset="utf-8"/>
-  <title>Custom template</title>
+  <title><%= htmlWebpackPlugin.options.title %></title>
 <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
 
 <body>
 
+  <!-- Header -->
+
   <header>
-    <img src="../graphics/123.jpg" alt="" class="logo">
+    <img src="image-icon.svg" alt="" class="logo">
     <nav class="menu">
       <a class="link" href="http://">Services</a>
+      <a class="link" href="http://">Equipment</a>
       <a class="link" href="http://">Contact</a>
       <a class="link" href="http://">About</a>
       <a class="link" href="http://">Blog</a>
     </nav>
   </header>
 
-  <h1>test</h1>
+  <!-- Hero Section -->
+  
+  <section id="heroSection">
+
+    <div class="infoContainer">
+      <h1>Welcome to Nzimu</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem ea repellat, nulla incidunt repellendus molestias. Officia consequatur error id! Doloremque id eum facere asperiores perspiciatis nisi ipsam officiis. A?</h3>
+      <button>Get In Touch</button>
+    </div>
+    
+    <div class="heroImageContainer">
+      <img src="image-icon.svg" alt="" class="heroImage">
+    </div>
+
+  </section>
+
+  <!-- Services Section -->
+
+  <section id="servicesSection">
+
+    <h1>Beekeeping Services</h1>
+  
+    <div class="servicesContainer">
+
+      <div class="serviceItem">
+        <div class="imageContainer">
+          <img src="image-icon.svg" alt="">
+        </div>
+        <div class="infoContainer">
+          <h3>Service 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
+        </div>
+      </div>
+
+      <div class="serviceItem">
+        <div class="imageContainer">
+          <img src="image-icon.svg" alt="">
+        </div>
+        <div class="infoContainer">
+          <h3>Service 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
+        </div>
+      </div>
+
+      <div class="serviceItem">
+        <div class="imageContainer">
+          <img src="image-icon.svg" alt="">
+        </div>
+        <div class="infoContainer">
+          <h3>Service 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
+        </div>
+      </div>
+
+      <div class="serviceItem">
+        <div class="imageContainer">
+          <img src="image-icon.svg" alt="">
+        </div>
+        <div class="infoContainer">
+          <h3>Service 4</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button>See Our Services</button>
+
+  </section>
+
+  <!-- Equipment Section -->
+
+  <section id="equipmentSection">
+
+    <h1>Beekeeping Equipment</h1>
+  
+    <div class="equipmentContainer">
+
+      <div class="equipmentItem">
+        <div class="imageContainer">
+          <img src="image-icon.svg" alt="">
+        </div>
+        <h3>Equipment 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
+      </div>
+
+      <div class="equipmentItem">
+        <div class="imageContainer">
+          <img src="image-icon.svg" alt="">
+        </div>
+        <h3>Equipment 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
+      </div>
+
+      <div class="equipmentItem">
+        <div class="imageContainer">
+          <img src="image-icon.svg" alt="">
+        </div>
+        <h3>Equipment 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
+      </div>
+
+      <div class="equipmentItem">
+        <div class="imageContainer">
+          <img src="image-icon.svg" alt="">
+        </div>
+        <h3>Equipment 4</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
+      </div>
+
+    </div>
+
+    <button>See Our Equipment</button>
+
+  </section>
+
+  <!-- Testimonials Section -->
+
+  <section class="testimonialsSection">
+    
+    <h1>What People Say</h1>
+
+    <div class="testimonialsContainer">
+
+      <div class="testimonial">
+        <div class="imageContainer">
+          <img src="123.jpg" alt="">
+        </div>
+        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam quos repudiandae quas ex iste vitae consequuntur maiores.</p>
+        <p class="name">John Watson</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  <!-- Footer -->
+
+  <footer>
+
+    <div class="contactsContainer">
+
+      <a class="contactItem" href="tel:+260 95 5700701">
+        <img class="contactIcon" src="image-icon.svg">
+        +260 95 5700701
+      </a>
+
+      <p class="contactItem">
+        <img class="contactIcon" src="image-icon.svg">
+        Lusaka, Zambia
+      </p>
+
+      <a class="contactItem" href="https://wa.me/260955700701/">
+        <img class="socialMediaIcon" src="image-icon.svg">
+      </a>
+
+      <a class="contactItem" href="https://facebook.com/">
+        <img class="socialMediaIcon" src="image-icon.svg">
+      </a>
+
+      <a class="contactItem" href="https://instagram.com/">
+        <img class="socialMediaIcon" src="image-icon.svg">
+      </a>
+    
+    </div>
+    
+    <nav class="menu">
+
+      <a class="link" href="https://rodionlee.github.io/kalahari-biocare/">
+        Home
+      </a>
+
+      <a class="link" href="https://rodionlee.github.io/kalahari-biocare/about">
+        About
+      </a>
+
+      <a class="link" href="https://rodionlee.github.io/kalahari-biocare/contact">
+        Contact
+      </a>
+
+      <a class="link" href="https://rodionlee.github.io/kalahari-biocare/products">
+        Services
+      </a>
+
+      <a class="link" href="https://rodionlee.github.io/kalahari-biocare/products">
+        Equipment
+      </a>
+      
+      <a class="link" href="https://rodionlee.github.io/kalahari-biocare/blog">
+        Blog
+      </a>
+
+      <a class="link" href="https://rodionlee.github.io/kalahari-biocare/privacy">
+        Privacy
+      </a>
+
+      <a class="link" href="https://rodionlee.github.io/kalahari-biocare/terms">
+        Terms
+      </a>
+    
+    </nav>
+
+    <!-- Gets updated from .js script -->
+
+    <p id="footerCopyright"></p>
+          
+  </footer>
 
 </body>
 
