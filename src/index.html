@@ -5,18 +5,66 @@
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 
-<body>
+<body class="lightTheme">
 
   <!-- Header -->
 
-  <header>
+  <header class="headerSection">
     <img src="../graphics/image-icon.svg" alt="" class="logo">
-    <nav class="menu">
-      <a class="link" href="http://">Services</a>
-      <a class="link" href="http://">Equipment</a>
-      <a class="link" href="http://">Contact</a>
-      <a class="link" href="http://">About</a>
-      <a class="link" href="http://">Blog</a>
+    <nav class="">
+      <ul class="headerMenu">
+
+        <li class="headerMenu-linkContainer">
+          <a class="linkContainer-link" href="http://">Services</a>
+
+          <ul class="linkContainer-dropdown">
+            <li class="headerMenu-linkContainer">
+              <a class="linkContainer-link" href="http://">Service 1</a>
+            </li>
+
+            <li class="headerMenu-linkContainer">
+              <a class="linkContainer-link" href="http://">Service 2</a>
+            </li>
+
+            <li class="headerMenu-linkContainer">
+              <a class="linkContainer-link" href="http://">Service 3</a>
+            </li>
+          </ul>
+
+        </li>
+
+        <li class="headerMenu-linkContainer">
+          <a class="linkContainer-link" href="http://">Equipment</a>
+
+          <ul class="linkContainer-dropdown">
+            <li class="headerMenu-linkContainer">
+              <a class="linkContainer-link" href="http://">Equipment 1</a>
+            </li>
+
+            <li class="headerMenu-linkContainer">
+              <a class="linkContainer-link" href="http://">Equipment 2</a>
+            </li>
+
+            <li class="headerMenu-linkContainer">
+              <a class="linkContainer-link" href="http://">Equipment 3</a>
+            </li>
+          </ul>
+
+        </li>
+
+        <li class="headerMenu-linkContainer">
+          <a class="linkContainer-link" href="http://">Contact</a>
+        </li>
+
+        <li class="headerMenu-linkContainer">
+          <a class="linkContainer-link" href="http://">About</a>
+        </li>
+
+        <li class="headerMenu-linkContainer">
+          <a class="linkContainer-link" href="http://">Blog</a>
+        </li>
+        
+      </ul>
     </nav>
   </header>
 
@@ -24,9 +72,9 @@
   
   <section id="heroSection">
 
-    <div class="infoContainer">
-      <h1>Welcome to Nzimu</h1>
-      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem ea repellat, nulla incidunt repellendus molestias. Officia consequatur error id! Doloremque id eum facere asperiores perspiciatis nisi ipsam officiis. A?</h3>
+    <div class="heroSection-infoContainer">
+      <h1 class="infoContainer-h1">Welcome to Nzimu</h1>
+      <p class="infoContainer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem ea repellat, nulla incidunt repellendus molestias. Officia consequatur error id! Doloremque id eum facere asperiores perspiciatis nisi ipsam officiis. A?</p class="heroText">
       <button>Get In Touch</button>
     </div>
     
@@ -40,45 +88,45 @@
 
   <section id="servicesSection">
 
-    <h1>Beekeeping Services</h1>
+    <h1 class="servicesSection-h1">Beekeeping Services</h1>
   
-    <div class="servicesContainer">
+    <div class="servicesSection-servicesContainer">
 
-      <div class="serviceItem">
-        <div class="imageContainer">
+      <div class="servicesContainer-serviceItem">
+        <div class="serviceItem-imageContainer">
           <img src="../graphics/image-icon.svg" alt="">
         </div>
-        <div class="infoContainer">
+        <div class="serviceItem-infoContaine">
           <h3>Service 1</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
         </div>
       </div>
 
-      <div class="serviceItem">
-        <div class="imageContainer">
+      <div class="servicesContainer-serviceItem">
+        <div class="serviceItem-imageContainer">
           <img src="../graphics/image-icon.svg" alt="">
         </div>
-        <div class="infoContainer">
+        <div class="serviceItem-infoContaine">
           <h3>Service 2</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
         </div>
       </div>
 
-      <div class="serviceItem">
-        <div class="imageContainer">
+      <div class="servicesContainer-serviceItem">
+        <div class="serviceItem-imageContainer">
           <img src="../graphics/image-icon.svg" alt="">
         </div>
-        <div class="infoContainer">
+        <div class="serviceItem-infoContaine">
           <h3>Service 3</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
         </div>
       </div>
 
-      <div class="serviceItem">
-        <div class="imageContainer">
+      <div class="servicesContainer-serviceItem">
+        <div class="serviceItem-imageContainer">
           <img src="../graphics/image-icon.svg" alt="">
         </div>
-        <div class="infoContainer">
+        <div class="serviceItem-infoContaine">
           <h3>Service 4</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
         </div>
@@ -94,36 +142,36 @@
 
   <section id="equipmentSection">
 
-    <h1>Beekeeping Equipment</h1>
+    <h1 class="equipmentSection-h1">Beekeeping Equipment</h1>
   
-    <div class="equipmentContainer">
+    <div class="equipmentSection-equipmentContainer">
 
-      <div class="equipmentItem">
-        <div class="imageContainer">
+      <div class="equipmentContainer-equipmentItem">
+        <div class="equipmentItem-imageContainer">
           <img src="../graphics/image-icon.svg" alt="">
         </div>
         <h3>Equipment 1</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
       </div>
 
-      <div class="equipmentItem">
-        <div class="imageContainer">
+      <div class="equipmentContainer-equipmentItem">
+        <div class="equipmentItem-imageContainer">
           <img src="../graphics/image-icon.svg" alt="">
         </div>
         <h3>Equipment 2</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
       </div>
 
-      <div class="equipmentItem">
-        <div class="imageContainer">
+      <div class="equipmentContainer-equipmentItem">
+        <div class="equipmentItem-imageContainer">
           <img src="../graphics/image-icon.svg" alt="">
         </div>
         <h3>Equipment 3</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum libero vel quibusdam cupiditate rerum dicta qui dolorem, eveniet soluta consequatur unde delectus quaerat ipsa similique accusantium magnam, vitae id.</p>
       </div>
 
-      <div class="equipmentItem">
-        <div class="imageContainer">
+      <div class="equipmentContainer-equipmentItem">
+        <div class="equipmentItem-imageContainer">
           <img src="../graphics/image-icon.svg" alt="">
         </div>
         <h3>Equipment 4</h3>
@@ -135,6 +183,39 @@
     <button>See Our Equipment</button>
 
   </section>
+
+    <!-- Features Section -->
+
+    <section id="featuresSection">
+
+      <h1>Why Choose Us</h1>
+
+      <div class="featuresSection-featuresContainer">
+  
+        <div class="featuresContainer-featureItem">
+          <div class="featureItem-imageContainer">
+            <img src="../graphics/image-icon.svg" alt="">
+          </div>
+          <h3>Feature 1</h3>
+        </div>
+  
+        <div class="featuresContainer-featureItem">
+          <div class="featureItem-imageContainer">
+            <img src="../graphics/image-icon.svg" alt="">
+          </div>
+          <h3>Feature 2</h3>
+        </div>
+  
+        <div class="featuresContainer-featureItem">
+          <div class="featureItem-imageContainer">
+            <img src="../graphics/image-icon.svg" alt="">
+          </div>
+          <h3>Feature 3</h3>
+        </div>
+  
+      </div>
+  
+    </section>
 
   <!-- Testimonials Section -->
 
@@ -164,8 +245,11 @@
 
   </section>
 
+  <!-- Final CTA Section -->
 
-
+  <section class="finalCTASection">
+    <button>Get In Touch</button>
+  </section>
 
   <!-- Footer -->
 
