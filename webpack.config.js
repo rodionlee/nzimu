@@ -50,8 +50,28 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Custom template",
+      filename: "index.html",
       template: "./src/index.html",
+    }),
+    new HtmlWebpackPlugin({
+        filename: "contact.html",
+        template: "./src/pages/contact.html",
+    }),
+    new HtmlWebpackPlugin({
+        filename: "about.html",
+        template: "./src/pages/about.html",
+    }),
+    new HtmlWebpackPlugin({
+        filename: "services.html",
+        template: "./src/pages/services.html",
+    }),
+    new HtmlWebpackPlugin({
+        filename: "equipment.html",
+        template: "./src/pages/equipment.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "blog.html",
+      template: "./src/pages/blog.html",
     }),
   ],
   optimization: {
