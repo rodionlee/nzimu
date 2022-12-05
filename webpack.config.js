@@ -4,7 +4,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: {
-    index: "./src/index.js",
+    header: "./src/scripts/header.js",
+    footer: "./src/scripts/footer.js",
   },
   devServer: {
     static: "./dist",
