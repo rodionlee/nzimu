@@ -418,3 +418,20 @@ footer .menu {
 .servicesContainer-serviceItem.onServicesPage:nth-child(2n) .serviceItem-infoContainer {
     grid-column: 1 / 2;
 }
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/service.css ***!
+  \**************************************************************************/
+#serviceSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.serviceContainer-imageContainer {
+    width: 300px;
+    float: left;
+    margin-right: var(--big-padding);
+}
+button {
+    clear: both;
+}
+
