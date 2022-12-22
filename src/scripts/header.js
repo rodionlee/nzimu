@@ -3,6 +3,7 @@ import "../styles/index.css";
 import "../styles/about.css";
 import "../styles/services.css";
 import "../styles/service.css";
+import "../styles/contact.css";
 
 import "../graphics/image-icon.svg";
 
