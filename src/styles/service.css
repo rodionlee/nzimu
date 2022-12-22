@@ -1,0 +1,13 @@
+#serviceSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.serviceContainer-imageContainer {
+    width: 300px;
+    float: left;
+    margin-right: var(--big-padding);
+}
+button {
+    clear: both;
+}
