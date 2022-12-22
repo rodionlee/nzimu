@@ -47,15 +47,15 @@ class header extends HTMLElement {
     
               <ul class="linkContainer-dropdown">
                 <li class="headerMenu-linkContainer">
-                  <a class="linkContainer-link" href="http://">Equipment 1</a>
+                  <a class="linkContainer-link" href="./equipment.html">Equipment 1</a>
                 </li>
     
                 <li class="headerMenu-linkContainer">
-                  <a class="linkContainer-link" href="http://">Equipment 2</a>
+                  <a class="linkContainer-link" href="./equipment.html">Equipment 2</a>
                 </li>
     
                 <li class="headerMenu-linkContainer">
-                  <a class="linkContainer-link" href="http://">Equipment 3</a>
+                  <a class="linkContainer-link" href="./equipment.html">Equipment 3</a>
                 </li>
               </ul>
     
