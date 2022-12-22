@@ -1,5 +1,6 @@
-/* img {
+.aboutImage {
     float: left;
-    width: 100px;
-    display: none;
-} */
+    width: 200px;
+    margin-right: var(--big-padding);
+    margin-bottom: var(--small-padding);
+}
