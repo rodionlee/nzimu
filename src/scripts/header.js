@@ -1,5 +1,8 @@
 import "../styles/global.css";
 import "../styles/index.css";
+import "../styles/about.css";
+import "../styles/services.css";
+
 import "../graphics/image-icon.svg";
 
 // 	Header
@@ -11,7 +14,11 @@ class header extends HTMLElement {
         this.innerHTML = 
         `
         <header class="headerSection">
-        <img src="./image-icon.svg" alt="" class="logo">
+
+        <a href="./index.html">
+          <img src="./image-icon.svg" alt="" class="headerSection-logo">
+        </a>
+
         <nav class="">
           <ul class="headerMenu">
     
@@ -20,15 +27,15 @@ class header extends HTMLElement {
     
               <ul class="linkContainer-dropdown">
                 <li class="headerMenu-linkContainer">
-                  <a class="linkContainer-link" href="http://">Service 1</a>
+                  <a class="linkContainer-link" href="./service-1.html">Service 1</a>
                 </li>
     
                 <li class="headerMenu-linkContainer">
-                  <a class="linkContainer-link" href="http://">Service 2</a>
+                  <a class="linkContainer-link" href="./service-2.html">Service 2</a>
                 </li>
     
                 <li class="headerMenu-linkContainer">
-                  <a class="linkContainer-link" href="http://">Service 3</a>
+                  <a class="linkContainer-link" href="./service-3.html">Service 3</a>
                 </li>
               </ul>
     

@@ -1,0 +1,9 @@
+.servicesContainer-serviceItem.onServicesPage:nth-child(2n) {
+    grid-template-columns: 1fr 300px;
+}
+.servicesContainer-serviceItem.onServicesPage:nth-child(2n) .serviceItem-imageContainer {
+    grid-column: 2 / 3;
+}
+.servicesContainer-serviceItem.onServicesPage:nth-child(2n) .serviceItem-infoContainer {
+    grid-column: 1 / 2;
+}

@@ -1,3 +1,6 @@
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/global.css ***!
+  \*************************************************************************/
 /* Global */
 
 * {
@@ -244,3 +247,174 @@ footer .menu {
     display: flex;
 }
 
+
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/index.css ***!
+  \************************************************************************/
+/* Hero Section */
+
+#heroSection {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    height: 90vh;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.heroSection-infoContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.infoContainer-h1 {
+    padding-bottom: 0;
+}
+.infoContainer-text {
+    font-size: 22px;
+}
+
+/* Services Section */
+
+#servicesSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.servicesSection-h1 {
+    padding-bottom: 0;
+}
+.servicesSection-servicesContainer {
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    justify-content: center;
+}
+.servicesContainer-serviceItem {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr;
+}
+.serviceItem-imageContainer {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.serviceItem-infoContainer {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Equipment Section */
+
+#equipmentSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.equipmentSection-h1 {
+    padding-bottom: 0;
+}
+.equipmentSection-equipmentContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-rows: repeat(2, min-content);
+    justify-content: center;
+    justify-items: center;
+}
+.equipmentContainer-equipmentItem {
+    display: flex;
+    flex-wrap: wrap;
+}
+.equipmentItem-imageContainer {
+    width: 70%;
+}
+
+/* Equipment Section */
+
+.featuresSection-featuresContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-rows: repeat(2, min-content);
+    justify-content: center;
+}
+.featuresContainer-featureItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.featureItem-imageContainer {
+    width: 60%;
+}
+
+/* Testimonials Section */
+
+.testimonialsSection h1 {
+    padding-bottom: var(--big-padding);
+}
+.testimonialsSection .testimonialsContainer {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: center;
+}
+.testimonialsContainer .testimonial {
+    border: var(--border);
+    padding: var(--small-padding);
+
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 1fr min-content;
+}
+.testimonial .imageContainer {
+    display: flex;
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+.imageContainer img {
+    width: 100%;
+}
+.testimonial .text {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.testimonial .name {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+/* Final CTA Section */
+
+.finalCTASection {
+    display: flex;
+    justify-content: center;
+}
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/about.css ***!
+  \************************************************************************/
+/* img {
+    float: left;
+    width: 100px;
+    display: none;
+} */
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/services.css ***!
+  \***************************************************************************/
+.servicesContainer-serviceItem.onServicesPage:nth-child(2n) {
+    grid-template-columns: 1fr 300px;
+}
+.servicesContainer-serviceItem.onServicesPage:nth-child(2n) .serviceItem-imageContainer {
+    grid-column: 2 / 3;
+}
+.servicesContainer-serviceItem.onServicesPage:nth-child(2n) .serviceItem-infoContainer {
+    grid-column: 1 / 2;
+}
