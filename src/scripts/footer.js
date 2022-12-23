@@ -35,35 +35,35 @@ class footer extends HTMLElement {
     
     <nav class="menu">
 
-      <a class="link" href="https:/rodionlee.github.io/kalahari-biocare/">
+      <a class="link" href="./index.html">
         Home
       </a>
 
-      <a class="link" href="https:/rodionlee.github.io/kalahari-biocare/about">
+      <a class="link" href="./about.html">
         About
       </a>
 
-      <a class="link" href="https:/rodionlee.github.io/kalahari-biocare/contact">
+      <a class="link" href="./contact.html">
         Contact
       </a>
 
-      <a class="link" href="https:/rodionlee.github.io/kalahari-biocare/products">
+      <a class="link" href="./services.html">
         Services
       </a>
 
-      <a class="link" href="https:/rodionlee.github.io/kalahari-biocare/products">
+      <a class="link" href="./equipment.html">
         Equipment
       </a>
       
-      <a class="link" href="https:/rodionlee.github.io/kalahari-biocare/blog">
+      <a class="link" href="./blog.html">
         Blog
       </a>
 
-      <a class="link" href="https:/rodionlee.github.io/kalahari-biocare/privacy">
+      <a class="link" href="./privacy.html">
         Privacy
       </a>
 
-      <a class="link" href="https:/rodionlee.github.io/kalahari-biocare/terms">
+      <a class="link" href="./terms.html">
         Terms
       </a>
     

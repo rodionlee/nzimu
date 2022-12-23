@@ -91,6 +91,14 @@ module.exports = {
       filename: "service-3.html",
       template: "./src/pages/service-3.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "privacy.html",
+      template: "./src/pages/privacy.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "terms.html",
+      template: "./src/pages/terms.html",
+    }),
     new MiniCssExtractPlugin({
       filename: "style.css"
     })
