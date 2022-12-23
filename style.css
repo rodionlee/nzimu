@@ -401,14 +401,18 @@ footer .menu {
 /*!************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/about.css ***!
   \************************************************************************/
-/* img {
+.aboutImage {
     float: left;
-    width: 100px;
-    display: none;
-} */
+    width: 200px;
+    margin-right: var(--big-padding);
+    margin-bottom: var(--small-padding);
+}
 /*!***************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/services.css ***!
   \***************************************************************************/
+.servicesContainer-serviceItem {
+    text-decoration: none;
+}
 .servicesContainer-serviceItem.onServicesPage:nth-child(2n) {
     grid-template-columns: 1fr 300px;
 }
@@ -418,6 +422,7 @@ footer .menu {
 .servicesContainer-serviceItem.onServicesPage:nth-child(2n) .serviceItem-infoContainer {
     grid-column: 1 / 2;
 }
+
 /*!**************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/service.css ***!
   \**************************************************************************/
@@ -434,4 +439,63 @@ footer .menu {
 button {
     clear: both;
 }
+
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/contact.css ***!
+  \**************************************************************************/
+.contactsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+}
+
+.phoneContainer {
+    justify-self: end;
+}
+.whatsAppContainer {
+    justify-self: end;
+}
+
+/* Form */
+
+h2 {
+    text-align: center;
+    margin-top: var(--big-padding);
+    margin-bottom: var(--small-padding);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center;
+}
+
+button {
+    justify-self: end;
+}
+
+
+
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/blog.css ***!
+  \***********************************************************************/
+.blogContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.postContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: var(--border);
+}
+.postImage {
+    width: 200px;
+}
+.postH2 {
+    margin: 0;
+    padding: 0;
+}
+
 
